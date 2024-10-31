@@ -60,6 +60,10 @@ tbody {
     flex-wrap: wrap;
     column-gap: 44px;
     width: 690px;
+    /*height: 400px;*/
+}
+
+@media (min-width: 800px) {
     height: 400px;
 }
 
