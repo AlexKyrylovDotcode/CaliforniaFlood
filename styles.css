@@ -42,6 +42,8 @@ table {
 tbody {
     display: flex;
     flex-direction: column;
+    /*display: grid;*/
+    /*grid-template-columns: 29% 29% 29%;*/
     gap: 8px;
     /*height: 500px;*/
     flex-wrap: wrap;
@@ -63,8 +65,17 @@ td {
     text-align: left;
 }
 
+tr:has(>td:has(>img)) {
+    height: 61px;
+}
+
 td:has(>#hp_baddr2):before {
     content: "Address Line 2";
+    font-size: 12px;
+    font-weight: 500;
+    padding-bottom: 5px;
+    display: block;
+    font-family: verdana, sans-serif;
 }
 
 div:has(>#hp_cvv) {
