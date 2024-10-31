@@ -25,6 +25,7 @@ input.textEntryName, select.textEntryCardExp, select.textEntryName {
     font-size: 16px !important;
     border-radius: 4px;
     padding: 6px 12px;
+    cursor: pointer;
 }
 
 input.textEntryName, select.textEntryName {
@@ -58,9 +59,13 @@ tbody {
     /*height: 500px;*/
     flex-wrap: wrap;
     column-gap: 44px;
-    height: 400px;
     width: 690px;
 }
+
+@media (max-width: 1150px) {
+    height: 400px;
+}
+
 tr {
     display: flex;
     flex-direction: column;
