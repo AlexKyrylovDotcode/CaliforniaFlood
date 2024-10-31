@@ -35,7 +35,8 @@ table {
     border: 1px solid #D0D5DD !important;
     border-radius: 10px;
     display: block;
-    width: 100%;
+    /*width: 100%;*/
+    width: 783px;
 }
 
 tbody {
@@ -45,6 +46,8 @@ tbody {
     /*height: 500px;*/
     flex-wrap: wrap;
     column-gap: 44px;
+    height: 440px;
+    width: 645px;
 }
 tr {
     display: flex;
