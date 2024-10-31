@@ -1,3 +1,69 @@
-input.textEntryName {
-    font-size: 20px !important;
+input.textEntryName, select.textEntryCardExp, select.textEntryName {
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 12px !important;
+    height: 35px;
+}
+
+.submitButton {
+    background: #374463;
+    color: white;
+    border: 1px solid #374463;
+    transition: 0.3s;
+    font-size: 16px !important;
+    border-radius: 4px !important;
+    padding: 6px 12px;
+    text-decoration: none;
+}
+
+input.textEntryName, select.textEntryName {
+    width: 100% !important;
+}
+select.textEntryCardExp {
+    width: 47% !important;
+}
+
+.label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+table {
+    padding: 24px 44px;
+    border: 1px solid #D0D5DD;
+    display: block;
+    width: 100%;
+}
+
+tbody {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    /*height: 500px;*/
+    flex-wrap: wrap;
+    column-gap: 44px;
+}
+tr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+
+td {
+    display: block;
+    width: 200px;
+    text-align: left;
+}
+
+div:has(>#hp_cvv) {
+    position: relative;
+}
+
+.toggle-hp_cvv {
+    position: absolute;
+    top: 20%;
+    right: 4px;
 }
