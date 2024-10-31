@@ -16,6 +16,15 @@ input.textEntryName, select.textEntryCardExp, select.textEntryName {
     border-radius: 4px !important;
     padding: 6px 12px;
     text-decoration: none;
+    height: 42px !important;
+}
+.submitButton:hover {
+    color: #374463 !important;
+    background-color: white !important;
+    border: 1px solid #374463;
+    font-size: 16px !important;
+    border-radius: 4px;
+    padding: 6px 12px;
 }
 
 input.textEntryName, select.textEntryName {
