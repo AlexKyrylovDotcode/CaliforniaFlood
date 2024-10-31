@@ -32,6 +32,7 @@ select.textEntryCardExp {
 
 table {
     padding: 24px 44px;
+    padding-top: 24px !important;
     border: 1px solid #D0D5DD !important;
     border-radius: 10px;
     display: block;
@@ -65,8 +66,8 @@ td {
     text-align: left;
 }
 
-tr:has(>td:has(>img)) {
-    height: 61px;
+tr:has(> td > img) {
+    height: 63px;
 }
 
 td:has(>#hp_baddr2):before {
