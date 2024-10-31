@@ -32,7 +32,8 @@ select.textEntryCardExp {
 
 table {
     padding: 24px 44px;
-    border: 1px solid #D0D5DD;
+    border: 1px solid #D0D5DD !important;
+    border-radius: 10px;
     display: block;
     width: 100%;
 }
