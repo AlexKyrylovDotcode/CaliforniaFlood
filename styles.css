@@ -46,20 +46,25 @@ tbody {
     /*height: 500px;*/
     flex-wrap: wrap;
     column-gap: 44px;
-    height: 440px;
-    width: 645px;
+    height: 400px;
+    width: 690px;
 }
 tr {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 200px;
+    min-height: 43px;
 }
 
 td {
     display: block;
     width: 200px;
     text-align: left;
+}
+
+td:has(>#hp_baddr2):before {
+    content: "Address Line 2";
 }
 
 div:has(>#hp_cvv) {
@@ -70,4 +75,8 @@ div:has(>#hp_cvv) {
     position: absolute;
     top: 20%;
     right: 4px;
+}
+
+tr[height="10"] {
+    display: none;
 }
