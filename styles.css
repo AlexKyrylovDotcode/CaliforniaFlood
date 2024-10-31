@@ -60,12 +60,9 @@ tbody {
     flex-wrap: wrap;
     column-gap: 44px;
     width: 690px;
-}
-
-@media only screen and (max-width : 1150px) {
-
     height: 400px;
 }
+
 
 tr {
     display: flex;
