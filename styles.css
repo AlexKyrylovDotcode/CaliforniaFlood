@@ -62,7 +62,8 @@ tbody {
     width: 690px;
 }
 
-@media (max-width: 1150px) {
+@media only screen and (max-width : 1150px) {
+
     height: 400px;
 }
 
