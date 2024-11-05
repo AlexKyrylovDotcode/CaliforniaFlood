@@ -53,37 +53,42 @@ tr table {
 
 
 td.label:has(>table) {
-    border-radius: 8px;
-    border: 1px solid #D0D5DD !important;
+    /*border-radius: 8px;*/
+    /*border: 1px solid #D0D5DD !important;*/
     /*padding: 8px 16px;*/
     font-weight: 500;
     font-size: 12px !important;
     max-width: 200px;
-    width: 196px;
-    height: 63px;
+    /*width: 196px;*/
+    /*height: 63px;*/
 
 }
 
 td.label > table > tbody >tr {
     /*width: 100%;*/
-    padding-left: 16px;
-    padding-top: 8px;
+    /*padding-left: 16px;*/
+    /*padding-top: 8px;*/
     /*display: flex;*/
     /*flex-direction: row;*/
 }
 
 td.label:has(>table) td{
-    width: 80%;
+    width: 100%;
     font-size: 12px !important;
     padding-right: 0px !important;
 }
+
+#flex_fee_val {
+    margin-left: 5px;
+}
+
 .amountInclude {
     padding-top: 0 !important;
     background-color: white !important;
 }
 
 tr:has(>.amountInclude) {
-    width: 100px;
+    /*width: 100px;*/
 
 }
 
@@ -137,7 +142,24 @@ td {
 }
 
 tr:has(> td > img) {
-    height: 48px;
+    height: 61px;
+}
+
+table:has(>#flex_fee) tr {
+    display: flex;
+    flex-direction: row;
+    padding: 8px 16px;
+    flex-basis: 200px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 83%;
+    border: 1px solid #D0D5DD;
+    border-radius: 8px;
+    background-color: rgba(239, 239, 239, 0.3);
+}
+
+table:has(>#flex_fee) td {
+    background-color: rgba(239, 239, 239, 0.3) !important;
 }
 
 td:has(>#hp_baddr2):before {
