@@ -79,10 +79,12 @@ td.label:has(>table) td{
 }
 .amountInclude {
     padding-top: 0 !important;
+    background-color: white !important;
 }
 
 tr:has(>.amountInclude) {
     width: 100px;
+    
 }
 
 tr table tbody{
