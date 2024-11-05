@@ -1,112 +1,110 @@
-/*
-input.textEntryName, select.textEntryCardExp, select.textEntryName {
-    border: 1px solid #D0D5DD;
-    border-radius: 8px;
-    padding: 8px 16px;
-    font-weight: 500;
-    font-size: 12px !important;
-    height: 35px;
-}
+/*input.textEntryName, select.textEntryCardExp, select.textEntryName {*/
+/*    border: 1px solid #D0D5DD;*/
+/*    border-radius: 8px;*/
+/*    padding: 8px 16px;*/
+/*    font-weight: 500;*/
+/*    font-size: 12px !important;*/
+/*    height: 35px;*/
+/*}*/
 
-.submitButton {
-    background: #374463;
-    color: white;
-    border: 1px solid #374463;
-    transition: 0.3s;
-    font-size: 16px !important;
-    border-radius: 4px !important;
-    padding: 6px 12px;
-    text-decoration: none;
-    height: 42px !important;
-}
-.submitButton:hover {
-    color: #374463 !important;
-    background-color: white !important;
-    border: 1px solid #374463;
-    font-size: 16px !important;
-    border-radius: 4px;
-    padding: 6px 12px;
-    cursor: pointer;
-}
+/*.submitButton {*/
+/*    background: #374463;*/
+/*    color: white;*/
+/*    border: 1px solid #374463;*/
+/*    transition: 0.3s;*/
+/*    font-size: 16px !important;*/
+/*    border-radius: 4px !important;*/
+/*    padding: 6px 12px;*/
+/*    text-decoration: none;*/
+/*    height: 42px !important;*/
+/*}*/
+/*.submitButton:hover {*/
+/*    color: #374463 !important;*/
+/*    background-color: white !important;*/
+/*    border: 1px solid #374463;*/
+/*    font-size: 16px !important;*/
+/*    border-radius: 4px;*/
+/*    padding: 6px 12px;*/
+/*    cursor: pointer;*/
+/*}*/
 
-input.textEntryName, select.textEntryName {
-    width: 100% !important;
-}
-select.textEntryCardExp {
-    width: 47% !important;
-}
+/*input.textEntryName, select.textEntryName {*/
+/*    width: 100% !important;*/
+/*}*/
+/*select.textEntryCardExp {*/
+/*    width: 47% !important;*/
+/*}*/
 
-.label {
-    font-size: 12px;
-    font-weight: 500;
-}
+/*.label {*/
+/*    font-size: 12px;*/
+/*    font-weight: 500;*/
+/*}*/
 
-table {
-    padding: 24px 44px;
-    padding-top: 24px !important;
-    border: 1px solid #D0D5DD !important;
-    border-radius: 10px;
-    display: block;
-    /*width: 100%;*/
-    width: 783px;
-}
+/*table {*/
+/*    padding: 24px 44px;*/
+/*    padding-top: 24px !important;*/
+/*    border: 1px solid #D0D5DD !important;*/
+/*    border-radius: 10px;*/
+/*    display: block;*/
+/*    !*width: 100%;*!*/
+/*    width: 783px;*/
+/*}*/
 
-tbody {
-    display: flex;
-    flex-direction: column;
-    /*display: grid;*/
-    /*grid-template-columns: 29% 29% 29%;*/
-    gap: 8px;
-    /*height: 500px;*/
-    flex-wrap: wrap;
-    column-gap: 44px;
-    width: 690px;
-    height: 400px;
-}
-
-/*@media (min-width: 800px) {*/
+/*tbody {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    !*display: grid;*!*/
+/*    !*grid-template-columns: 29% 29% 29%;*!*/
+/*    gap: 8px;*/
+/*    !*height: 500px;*!*/
+/*    flex-wrap: wrap;*/
+/*    column-gap: 44px;*/
+/*    width: 690px;*/
 /*    height: 400px;*/
 /*}*/
 
+/*!*@media (min-width: 800px) {*!*/
+/*!*    height: 400px;*!*/
+/*!*}*!*/
 
-tr {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 200px;
-    min-height: 43px;
-}
 
-td {
-    display: block;
-    width: 200px;
-    text-align: left;
-}
+/*tr {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: flex-start;*/
+/*    width: 200px;*/
+/*    min-height: 43px;*/
+/*}*/
 
-tr:has(> td > img) {
-    height: 63px;
-}
+/*td {*/
+/*    display: block;*/
+/*    width: 200px;*/
+/*    text-align: left;*/
+/*}*/
 
-td:has(>#hp_baddr2):before {
-    content: "Address Line 2";
-    font-size: 12px;
-    font-weight: 500;
-    padding-bottom: 5px;
-    display: block;
-    font-family: verdana, sans-serif;
-}
+/*tr:has(> td > img) {*/
+/*    height: 63px;*/
+/*}*/
 
-div:has(>#hp_cvv) {
-    position: relative;
-}
+/*td:has(>#hp_baddr2):before {*/
+/*    content: "Address Line 2";*/
+/*    font-size: 12px;*/
+/*    font-weight: 500;*/
+/*    padding-bottom: 5px;*/
+/*    display: block;*/
+/*    font-family: verdana, sans-serif;*/
+/*}*/
 
-.toggle-hp_cvv {
-    position: absolute;
-    top: 20%;
-    right: 4px;
-}
+/*div:has(>#hp_cvv) {*/
+/*    position: relative;*/
+/*}*/
 
-tr[height="10"] {
-    display: none;
-}
-*/
+/*.toggle-hp_cvv {*/
+/*    position: absolute;*/
+/*    top: 20%;*/
+/*    right: 4px;*/
+/*}*/
+
+/*tr[height="10"] {*/
+/*    display: none;*/
+/*}*/
