@@ -164,6 +164,7 @@ table:has(>#flex_fee) tr {
     border: 1px solid #D0D5DD;
     border-radius: 8px;
     background-color: rgba(239, 239, 239, 0.3);
+    height: 20px;
 }
 
 table:has(>#flex_fee) td {
