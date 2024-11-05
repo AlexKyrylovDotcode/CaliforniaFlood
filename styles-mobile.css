@@ -100,13 +100,13 @@ tr table tbody{
 }
 
 table {
-    padding: 24px 44px;
+    padding: 24px 5px;
     padding-top: 24px !important;
     border: 1px solid #D0D5DD !important;
     border-radius: 10px;
     display: block;
-    /*width: 100%;*/
-    width: 783px;
+    width: 100%;
+    /*width: 783px;*/
 }
 
 tbody {
@@ -116,10 +116,10 @@ tbody {
     /*grid-template-columns: 29% 29% 29%;*/
     gap: 8px;
     /*height: 500px;*/
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     column-gap: 44px;
     width: 690px;
-    height: 465px;
+    height: 100%;
 }
 
 /*@media (min-width: 800px) {*/
