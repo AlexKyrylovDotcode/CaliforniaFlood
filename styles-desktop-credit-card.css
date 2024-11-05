@@ -60,7 +60,7 @@ td.label:has(>table) {
     font-size: 12px !important;
     max-width: 200px;
     width: 196px;
-    height: 49px;
+    height: 63px;
 
 }
 
@@ -68,8 +68,8 @@ td.label > table > tbody >tr {
     /*width: 100%;*/
     padding-left: 16px;
     padding-top: 8px;
-    display: flex;
-    flex-direction: row;
+    /*display: flex;*/
+    /*flex-direction: row;*/
 }
 
 td.label:has(>table) td{
@@ -84,7 +84,7 @@ td.label:has(>table) td{
 
 tr:has(>.amountInclude) {
     width: 100px;
-    
+
 }
 
 tr table tbody{
@@ -137,7 +137,7 @@ td {
 }
 
 tr:has(> td > img) {
-    height: 63px;
+    height: 48px;
 }
 
 td:has(>#hp_baddr2):before {
