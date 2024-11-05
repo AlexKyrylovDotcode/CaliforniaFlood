@@ -79,7 +79,7 @@ td.label:has(>table) td{
 }
 
 #flex_fee_val {
-    margin-left: 5px;
+    /*margin-left: 5px;*/
 }
 
 .amountInclude {
@@ -142,12 +142,12 @@ td {
 }
 
 tr:has(> td > img) {
-    height: 61px;
+    height: 45px;
 }
 
 table:has(>#flex_fee) tr {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     padding: 8px 16px;
     flex-basis: 200px;
     flex-grow: 0;
