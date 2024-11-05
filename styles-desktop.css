@@ -40,6 +40,14 @@ select.textEntryCardExp {
     font-weight: 500;
 }
 
+tr table {
+    height: 100% !important;
+    border: none;
+    padding: 0;
+    border-radius: 0;
+    width: 100%;
+}
+
 table {
     padding: 24px 44px;
     padding-top: 24px !important;
@@ -63,7 +71,9 @@ tbody {
     height: 400px;
 }
 
-
+/*@media (min-width: 800px) {*/
+/*    height: 400px;*/
+/*}*/
 
 
 tr {
